@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 15px;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.navbar {
+    width: 100%;
+}
+
+.dropdown-menu li {
+    padding: 18px 0 18px 24px;
+}
+
+#image1 {
+    position: relative;
+    /* margin-top: 1px; */
+    /* 50% chieu ngang cua chinh no */
+    /* padding-top: 50%; */
+    height: 500px;
+    width: 100%;
+    background: url('/LS02-BD03/images/image1.jpg') top center / cover no-repeat;
+}
+
+#text-content {
+    position: absolute;
+    color: #fff;
+    /* bottom: 47px; */
+    left: 3%;
+    /* cho dong chu nho vao giua */
+    transform: translateY(-50%);
+    width: 300px;
+    top: 50%;
+
+    /* de can giua co the dung width 100% */
+    /* width: 100%;
+    text-align: center; */
+
+    /* cho dong chu nho vao giua */
+    /* transform: translate(-50%);
+    text-align: left; */
+
+}
+
+.row {
+    margin: 10px 10px;
+}
+
+#item img,#item img {
+    display: block;
+    width: 40px;
+    height: 31px;
+    margin-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+
+
+
+#myCarousel {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#text-center {
+    margin-top: 5px;
+}
+
+#video {
+    margin-top: 5px;
+}
+
+#icon i, #icon i {
+    display: block;
+}
+
+#icon i {
+    font-size: 4em;
+	margin: 1rem;
+}
+
+#icon3 a, #icon4 a {
+    font-size: 2em;
+	margin: 1rem;
+}
+
+#icon3 {
+    float: left;
+}
+
+#icon4 {
+    float: right;
+}
+
+#iconn::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+footer {
+    background-color: #f1f1f1;
+}
